@@ -1,7 +1,8 @@
-PATH
-  remote: ../blazer
+GIT
+  remote: git://github.com/ankane/blazer.git
+  revision: 06f576c33eb3bb02d6c4e9a0ded14338f37e34e3
   specs:
-    blazer (1.0.1)
+    blazer (1.0.3)
       chartkick
       rails
 

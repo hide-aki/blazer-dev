@@ -53,10 +53,16 @@ end
   {
     name: "Users",
     statement: "SELECT * FROM users LIMIT 100"
+  },
+  {
+    name: "Airports In Italy",
+    statement: "SELECT name, city, country, latitude, longitude FROM airports WHERE country = 'Italy' ORDER BY name",
+    data_source: "openflights"
   }
 ].each_with_index do |query, i|
   q = Blazer::Query.where(creator_id: users.shift).first_or_initialize(id: i + 1)
   q.assign_attributes(query)
+  q.data_source ||= "movielens"
   q.save(validate: false)
 end
 
