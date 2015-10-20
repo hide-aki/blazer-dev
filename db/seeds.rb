@@ -55,8 +55,8 @@ end
     statement: "SELECT * FROM users LIMIT 100"
   },
   {
-    name: "Airports In Italy",
-    statement: "SELECT name, city, country, latitude, longitude FROM airports WHERE country = 'Italy' ORDER BY name",
+    name: "Airports In Pacific Time Zone",
+    statement: "SELECT name, city, country, latitude, longitude FROM airports WHERE timezone = 'America/Los_Angeles' ORDER BY name",
     data_source: "openflights"
   }
 ].each_with_index do |query, i|
