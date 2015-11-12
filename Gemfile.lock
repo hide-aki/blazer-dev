@@ -1,8 +1,8 @@
 GIT
   remote: git://github.com/ankane/blazer.git
-  revision: 06f576c33eb3bb02d6c4e9a0ded14338f37e34e3
+  revision: 093a2ad24f360db285bc01a21bf12f4cdcc060a6
   specs:
-    blazer (1.0.3)
+    blazer (1.0.4)
       chartkick
       rails
 
@@ -38,7 +38,7 @@ GEM
       activemodel (= 4.2.4)
       activesupport (= 4.2.4)
       arel (~> 6.0)
-    activerecord4-redshift-adapter (0.2.0)
+    activerecord4-redshift-adapter (0.2.1)
       activerecord (~> 4.2.0)
       pg
     activesupport (4.2.4)
@@ -90,7 +90,7 @@ GEM
       mime-types (>= 1.16, < 3)
     mime-types (2.6.2)
     mini_portile (0.6.2)
-    minitest (5.8.1)
+    minitest (5.8.2)
     multi_json (1.11.2)
     mysql2 (0.4.1)
     nokogiri (1.6.6.2)
