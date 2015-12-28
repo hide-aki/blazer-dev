@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/ankane/blazer.git
-  revision: 093a2ad24f360db285bc01a21bf12f4cdcc060a6
+  revision: 5d8a4d4593f0459464133eae7f17b3bc46e2a362
   specs:
     blazer (1.0.4)
       chartkick
@@ -88,13 +88,13 @@ GEM
       nokogiri (>= 1.5.9)
     mail (2.6.3)
       mime-types (>= 1.16, < 3)
-    mime-types (2.6.2)
-    mini_portile (0.6.2)
-    minitest (5.8.2)
+    mime-types (2.99)
+    mini_portile2 (2.0.0)
+    minitest (5.8.3)
     multi_json (1.11.2)
     mysql2 (0.4.1)
-    nokogiri (1.6.6.2)
-      mini_portile (~> 0.6.0)
+    nokogiri (1.6.7.1)
+      mini_portile2 (~> 2.0.0.rc2)
     oj (2.12.14)
     pg (0.18.3)
     rack (1.6.4)
