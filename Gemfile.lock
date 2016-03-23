@@ -1,8 +1,8 @@
 GIT
   remote: git://github.com/ankane/blazer.git
-  revision: 5d8a4d4593f0459464133eae7f17b3bc46e2a362
+  revision: bc732b5e344e6aa16ee123975132b65aa67d1e29
   specs:
-    blazer (1.0.4)
+    blazer (1.2.0)
       chartkick
       rails
 
@@ -50,7 +50,7 @@ GEM
     addressable (2.3.8)
     arel (6.0.3)
     builder (3.2.2)
-    chartkick (1.4.1)
+    chartkick (1.4.2)
     coffee-rails (4.0.1)
       coffee-script (>= 2.2.0)
       railties (>= 4.0.0, < 5.0)
@@ -88,12 +88,12 @@ GEM
       nokogiri (>= 1.5.9)
     mail (2.6.3)
       mime-types (>= 1.16, < 3)
-    mime-types (2.99)
+    mime-types (2.99.1)
     mini_portile2 (2.0.0)
-    minitest (5.8.3)
+    minitest (5.8.4)
     multi_json (1.11.2)
     mysql2 (0.4.1)
-    nokogiri (1.6.7.1)
+    nokogiri (1.6.7.2)
       mini_portile2 (~> 2.0.0.rc2)
     oj (2.12.14)
     pg (0.18.3)
@@ -117,7 +117,7 @@ GEM
       activesupport (>= 4.2.0.beta, < 5.0)
       nokogiri (~> 1.6.0)
       rails-deprecated_sanitizer (>= 1.0.1)
-    rails-html-sanitizer (1.0.2)
+    rails-html-sanitizer (1.0.3)
       loofah (~> 2.0)
     rails_12factor (0.0.3)
       rails_serve_static_assets
@@ -130,7 +130,7 @@ GEM
       rake (>= 0.8.7)
       thor (>= 0.18.1, < 2.0)
     raindrops (0.15.0)
-    rake (10.4.2)
+    rake (11.1.1)
     rdoc (4.2.0)
     rollbar (2.3.0)
       oj (~> 2.12.14)
@@ -194,4 +194,4 @@ DEPENDENCIES
   unicorn
 
 BUNDLED WITH
-   1.10.6
+   1.11.2
