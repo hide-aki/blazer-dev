@@ -20,3 +20,8 @@ data_sources:
 
 time_zone: "Eastern Time (US & Canada)"
 audit: false
+
+check_schedules:
+  - "1 day"
+  - "1 hour"
+  - "5 minutes"
