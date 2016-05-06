@@ -68,7 +68,7 @@ end
 
 dashboard = Blazer::Dashboard.first_or_initialize
 dashboard.creator = users.last
-dashboard.update_attributes(name: "Ratings")
+dashboard.update_attributes(name: "Movie Ratings")
 dashboard.dashboard_queries.destroy_all
 [
   "New Ratings Per Week",
