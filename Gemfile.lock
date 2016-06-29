@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/ankane/blazer.git
-  revision: 0aa05049a35784a44a7e1bdf3ecbcb82ce9af29e
+  revision: debadf684681805c0692a23397a98d9648ea4b9a
   specs:
     blazer (1.4.0)
       chartkick
@@ -133,7 +133,7 @@ GEM
       rake (>= 0.8.7)
       thor (>= 0.18.1, < 2.0)
     raindrops (0.16.0)
-    rake (11.1.2)
+    rake (11.2.2)
     rdoc (4.2.2)
       json (~> 1.4)
     rollbar (2.11.2)
