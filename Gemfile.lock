@@ -1,8 +1,8 @@
 GIT
   remote: git://github.com/ankane/blazer.git
-  revision: debadf684681805c0692a23397a98d9648ea4b9a
+  revision: 09ee7b6b9efc14d9413d87ec0b60c428100b8f2d
   specs:
-    blazer (1.4.0)
+    blazer (1.5.0)
       chartkick
       rails
       safely_block (>= 0.1.1)
