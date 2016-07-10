@@ -87,11 +87,11 @@ dashboard.creator = users.last
 dashboard.update_attributes(name: "Dashboard Demo")
 dashboard.dashboard_queries.destroy_all
 [
-  "Map",
   "Line Chart Format 1",
   "Line Chart Format 2",
   "Bar Chart Format 1",
   "Bar Chart Format 2",
+  "Map",
   "Linked Column"
 ].each_with_index do |query_name, i|
   dashboard.dashboard_queries.create!(query_id: Blazer::Query.find_by(name: query_name).id, position: i)
