@@ -21,6 +21,10 @@ data_sources:
 time_zone: "Eastern Time (US & Canada)"
 audit: false
 
+anomaly_checks: true
+
+images: true
+
 check_schedules:
   - "1 day"
   - "1 hour"
