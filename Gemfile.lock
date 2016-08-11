@@ -1,8 +1,8 @@
 GIT
   remote: git://github.com/ankane/blazer.git
-  revision: 09ee7b6b9efc14d9413d87ec0b60c428100b8f2d
+  revision: 4c0598f613d40b2ef980f46180062bb08b7aa51d
   specs:
-    blazer (1.5.0)
+    blazer (1.6.2)
       chartkick
       rails
       safely_block (>= 0.1.1)
@@ -51,7 +51,7 @@ GEM
     addressable (2.4.0)
     arel (6.0.3)
     builder (3.2.2)
-    chartkick (2.0.0)
+    chartkick (2.0.2)
     coffee-rails (4.0.1)
       coffee-script (>= 2.2.0)
       railties (>= 4.0.0, < 5.0)
@@ -69,7 +69,7 @@ GEM
     execjs (2.6.0)
     foreman (0.81.0)
       thor (~> 0.19.1)
-    globalid (0.3.6)
+    globalid (0.3.7)
       activesupport (>= 4.1.0)
     hike (1.2.3)
     i18n (0.7.0)
