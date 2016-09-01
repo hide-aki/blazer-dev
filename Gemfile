@@ -36,11 +36,8 @@ gem 'blazer', github: 'ankane/blazer'
 
 gem 'foreman', group: :development
 gem 'dalli'
-
 gem 'rails_12factor'
-
 gem 'rollbar'
-
 gem 'letter_opener', group: :development
 
 # Use ActiveModel has_secure_password
