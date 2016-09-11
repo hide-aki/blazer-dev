@@ -32,7 +32,7 @@ gem 'nokogiri', '1.6.7.2'
 # gem 'spring', group: :development
 
 # gem 'blazer', path: '../blazer'
-gem 'blazer', github: 'ankane/blazer'
+gem 'blazer', github: 'ankane/blazer', branch: 'mapbox'
 
 gem 'foreman', group: :development
 gem 'dalli'
