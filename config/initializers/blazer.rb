@@ -6,7 +6,7 @@ module DemoModel
   end
 
   def prevent_save
-    errors.add(:base, "Sorry, not in the demo") if ENV["DEMO"].present?
+    errors.add(:base, "Sorry, not in the demo") if changed? && ENV["DEMO"].present?
   end
 
   def destroy
