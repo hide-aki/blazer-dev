@@ -1,8 +1,8 @@
 GIT
   remote: git://github.com/ankane/blazer.git
-  revision: caded97bf5795cb57fd8ba49a83572951d6a337f
+  revision: 726b8a1aa4a61687ee9593510a3438e0259a7fc5
   specs:
-    blazer (1.7.0)
+    blazer (1.7.2)
       chartkick
       gon
       js-routes
