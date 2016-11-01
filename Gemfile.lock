@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/ankane/blazer.git
-  revision: 726b8a1aa4a61687ee9593510a3438e0259a7fc5
+  revision: 498f5ae70d74f9808488afe3878de83446e166c7
   specs:
     blazer (1.7.2)
       chartkick
