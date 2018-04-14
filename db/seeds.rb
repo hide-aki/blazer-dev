@@ -74,9 +74,13 @@ end
     name: "Map",
     statement: "SELECT name, city, country, latitude, longitude FROM airports WHERE timezone = 'America/Los_Angeles' ORDER BY name",
     data_source: "openflights"
+  },
+  {
+    name: "Scatter Chart",
+    statement: "SELECT user_id, COUNT(*) FROM ratings GROUP BY 1"
   }
 ].each_with_index do |query, i|
-  q = Blazer::Query.where(creator_id: users.shift).first_or_initialize(id: i + 1)
+  q = Blazer::Query.where(creator_id: users.shift).first_or_initialize
   q.assign_attributes(query)
   q.data_source ||= "movielens"
   q.save(validate: false)
